@@ -3,11 +3,11 @@
 
  ✨ **Overview ✨**
 
- ✔ **Installation of Git and GitHub**
-
  ✔ **What is Version Control System?**
 
  ✔ **History behind the Git**
+
+ ✔ **Installation of Git and GitHub**
 
  ✔ **Basic Git command**
 
