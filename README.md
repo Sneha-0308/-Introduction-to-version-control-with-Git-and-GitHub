@@ -1,5 +1,5 @@
 <h1 align="center">Introduction to version control with Git and GitHub</h1>
-<h3 align="center">🥇 Microsoft Learn Student Ambassador 🥇</h3>
+
 
  ✨ **Overview ✨**
 
