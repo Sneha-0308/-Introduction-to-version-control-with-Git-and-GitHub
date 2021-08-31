@@ -1,15 +1,15 @@
 <h1 align="center">Introduction to version control with Git and GitHub</h1>
 
 
- ✨ **Overview ✨**
+ <h3>✨ <b>Overview ✨</b></h3>
 
- ✔ **What is Version Control System?**
+ ✔ <a href="What is Version Control System?.md">What is Version Control System?</a>
 
- ✔ **History behind the Git**
+ ✔ <a href="History behind the Git.md">History behind the Git</a>
 
- ✔ **Installation of Git and GitHub**
+ ✔ <a href="Installation of Git and GitHub.md">Installation of Git and GitHub</a>
 
- ✔ **Basic Git command**
+ ✔ <a href="Basic Git command">Basic Git command</a>
 
- ✔ **Branching and Merging in Git**
+ ✔ <a href="Branching and Merging in Git.">Branching and Merging in Git</a>
 
