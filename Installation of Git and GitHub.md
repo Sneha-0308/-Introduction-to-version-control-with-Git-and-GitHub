@@ -6,7 +6,7 @@
 
 **📌 Steps to install**
 
-1. Visit to https://git-scm.com/
+1. <a href="https://git-scm.com/">Click here</a>
 2. Click on **Download for Windows**
 3. Go to **Downloads** > open **Git-2.32.0.2-64-bit** > press **yes** option 
 4. Then accept the license by clicking next **>** You can select destination location or else leave as defalut by clicking next **>** Select component keep as it is by clicking next **>** Use the nano editor by default **>** next **>** next **>** next
