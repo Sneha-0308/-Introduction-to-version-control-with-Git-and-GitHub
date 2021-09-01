@@ -9,7 +9,7 @@
 
  ✔ <a href="Installation of Git and GitHub.md">Installation of Git and GitHub</a>
 
- ✔ <a href="Basic Git command">Basic Git command</a>
+ ✔ <a href="Basic Git command.md">Basic Git command</a>
 
- ✔ <a href="Branching and Merging in Git.">Branching and Merging in Git</a>
+ ✔ <a href="Branching and Merging in Git.md">Branching and Merging in Git</a>
 
