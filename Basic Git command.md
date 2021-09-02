@@ -42,7 +42,9 @@
 <p>Git commit messages are necessary to look back and see the changes made during a particular commit.</p>
 
 <li><code>git log</code></li>
-<p>The git log command display committed snapshots. It lets you list the project history, filter it, and search for specific changes. While <code>git status</code> lets you inspect the working directory and the staging area, git log only operates on the committed history.</p>
+<p>The git log command display committed snapshots. It lets you list the project history, filter it, and search for specific changes. While 
+  <br>
+  <code>git status</code> lets you inspect the working directory and the staging area, git log only operates on the committed history.</p>
 
 <li><code>vi filename.txt</code></li>
 <p>Command used to write content in file.
