@@ -62,3 +62,5 @@
 <li><code>cat filename.txt</code></li>
 <p>To see the content of file.</p>
 
+<li><code>git remote add origin <i>_repository url_</i</code></li>
+  <p></p>
