@@ -1,4 +1,5 @@
 <h1>&star;Basics of Git commands&star;</h1>
+
 <li><code>git config --global user.name "firstname lastname"</code></li>
 <p>Set a name that is identifiable for credit when reveiw version history.</p>
 
@@ -46,30 +47,3 @@
   <br>
   <code>git status</code> lets you inspect the working directory and the staging area, git log only operates on the committed history.</p>
 
-<li><code>vi filename.txt</code></li>
-<p>Command used to write content in file.
-  <br>
-  <b>How do you use vi in text editor.</b>
- <ol>
-  <li>To enter vi, type vi filename.txt</li>
-  <li>To enter insert mode, type i</li>
-  <li>Type in the text:------</li>
-  <li>To leave insert mode and return to command mode, press: &ltEsc&gt</li>
-  <li>To exit vi by typing :x You are back at the git bash.</li>
-</ol> 
-<em><b>Note: vi(Visual Instrument)</b> is the default editor. Using this we can edit an existing file.</em></p>
-
-<li><code>cat filename.txt</code></li>
-<p>To see the content of file.</p>
-
-<li><code>git remote add origin <i>_repository url_</i></code></li>
- <p>This is command that says "push the commits in the local branch named master to the remote named origin". Once this is executed, all the stuff that you last synchronised with origin will be sent to the remote repository and other people will be able to see them there. </p>
-
-<li><code>git remote -v</code></li>
-<p>Shows URLs of remote repositories when listing your current remote connections.</p>
-
-<li><code>git remote rm origin</code></li>
-<p>All it means that your local copy of a repository is no longer associated with a particular remote. Alternatively, you can use the git remote rm command. git remote rm is simply a shorter version of the fit remote remove command. We can see our "origin" remote has been successfully removed.</p>
-
-<li><code>git push origin master</code></li>
-<p>In simple words git push command updates the remote repository with local commits. The origin represent a remote name where the user wants to push the changes. git push command push commits made on a local branch to a remote repository.</p>
