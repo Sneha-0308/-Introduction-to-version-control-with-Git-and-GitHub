@@ -62,5 +62,14 @@
 <li><code>cat filename.txt</code></li>
 <p>To see the content of file.</p>
 
-<li><code>git remote add origin <i>_repository url_</i</code></li>
-  <p></p>
+<li><code>git remote add origin <i>_repository url_</i></code></li>
+ <p>This is command that says "push the commits in the local branch named master to the remote named origin". Once this is executed, all the stuff that you last synchronised with origin will be sent to the remote repository and other people will be able to see them there. </p>
+
+<li><code>git remote -v</code></li>
+<p>Shows URLs of remote repositories when listing your current remote connections.</p>
+
+<li><code>git remote rm origin</code></li>
+<p>All it means that your local copy of a repository is no longer associated with a particular remote. Alternatively, you can use the git remote rm command. git remote rm is simply a shorter version of the fit remote remove command. We can see our "origin" remote has been successfully removed.</p>
+
+<li><code>git push origin master</code></li>
+<p>In simple words git push command updates the remote repository with local commits. The origin represent a remote name where the user wants to push the changes. git push command push commits made on a local branch to a remote repository.</p>
