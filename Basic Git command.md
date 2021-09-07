@@ -7,7 +7,7 @@
 <p>Set an email address that will be associated with each history marker.</p>
 
 <li><code>git config --global color.ui auto</code></li>
-<p>Set automatic command line coloring for git for easy reviewing.</p>
+<p>Set automatic command line colouring for git for easy reviewing.</p>
 
 <li><code>mkdir folder name</code></li>
 <p>mkdir means <b>"make directory".</b> the new directory is made below the current one.</p>
