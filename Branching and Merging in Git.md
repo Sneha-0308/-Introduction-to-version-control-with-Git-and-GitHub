@@ -40,10 +40,10 @@
   The first commit is what everything is built on. You could squash a few commits together, including the first commit, which becomes the new first commit, but what does it mean to even delete the first commit (or delete any but the last commit).</i></p>
 
 <li><code>git stash</code></li>
-<p>The git stash command takes your uncommitted changes (bth staged and unstaged), saves them away for later uses, and then reverts them from your working copy.</p>
+<p>The git stash command takes your uncommitted changes , saves them away for later uses, and then reverts them from your working copy.</p>
 
 <li><code>git stash pop</code></li>
-<p>Git allows the user to re-apply the previous commits by using git stash pop command. The popping option removes the changes from stash and appies them to your working file.</p>
+<p>Git allows the user to re-apply the previous commits by using git stash pop command. The popping option removes the changes from stash and applies them to your working file.</p>
 
 <li><code>git stash clear</code></li>
 <p>Clear the stash area.</p>
@@ -63,8 +63,6 @@
 <li><code>git push origin <i>branch name</i></code></li>
 <p>Pushing changes to the remote makes your commits accessible to others who you may be collaborating with. This will also update any open pull requests with the branch that you're working on. </p>
 
-<li><code>git push origin <i>branch name</i> -f</code></li>
-<p>Origin stands for <b>your remote repository. </b>So when you use <code>git push origin <i>branch name</i> </code>, you are saying push my code to a branch called [branch name] in this specific remote repository called "origin".</p>
 
 <li><code>git fetch --all --prune</code></li>
 <p>git fetch --prune is the best utility for cleaning outdated branches. It will connect to a shared remote repository remote and fetch all remote branch refs. It will then delete remote refs that are no longer in use on the remote repository</p>
