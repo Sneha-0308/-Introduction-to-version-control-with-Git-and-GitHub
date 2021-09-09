@@ -1,3 +1,4 @@
+
 <h1>&star;Basics of Git commands&star;</h1>
 
 <li><code>git config --global user.name "user_name"</code></li>
