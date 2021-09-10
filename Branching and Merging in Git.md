@@ -1,4 +1,3 @@
-
 <h1>&star;Branching and Merging in Git&star;</h1>
 <li><code>vi filename.txt</code></li>
 <p>Command used to write content in file.
@@ -12,6 +11,7 @@
   <li>To exit vi by typing :x You are back at the git bash.</li>
 </ol> 
 <em><b>Note: vi(Visual Instrument)</b> is the default editor. Using this we can edit an existing file.</em></p>
+
 
 <li><code>cat filename.txt</code></li>
 <p>To see the content of file.</p>
@@ -31,6 +31,7 @@
 <li><code>git restore --staged filename.txt</code></li>
 <p>When you modify some file and added to git repository you can remove at any time if you didn't made any commit on that file that is called staging. Once you commit that file you can not unstage that file.</p>
 
+
 <li><code>rm -rf filename.txt</code></li>
 <p>To delete file.</p>
 
@@ -40,10 +41,12 @@
   The first commit is what everything is built on. You could squash a few commits together, including the first commit, which becomes the new first commit, but what does it mean to even delete the first commit (or delete any but the last commit).</i></p>
 
 <li><code>git stash</code></li>
-<p>The git stash command takes your uncommitted changes , saves them away for later uses, and then reverts them from your working copy.</p>
+
+<p>The git stash command takes your uncommitted changes (bth staged and unstaged), saves them away for later uses, and then reverts them from your working copy.</p>
 
 <li><code>git stash pop</code></li>
-<p>Git allows the user to re-apply the previous commits by using git stash pop command. The popping option removes the changes from stash and applies them to your working file.</p>
+<p>Git allows the user to re-apply the previous commits by using git stash pop command. The popping option removes the changes from stash and appies them to your working file.</p>
+
 
 <li><code>git stash clear</code></li>
 <p>Clear the stash area.</p>
@@ -64,6 +67,7 @@
 <p>Pushing changes to the remote makes your commits accessible to others who you may be collaborating with. This will also update any open pull requests with the branch that you're working on. </p>
 
 
+
 <li><code>git fetch --all --prune</code></li>
 <p>git fetch --prune is the best utility for cleaning outdated branches. It will connect to a shared remote repository remote and fetch all remote branch refs. It will then delete remote refs that are no longer in use on the remote repository</p>
 
@@ -72,3 +76,4 @@
 
 <li><code>git pull upstream main</code></li>
 <p>The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.</p>
+
