@@ -26,7 +26,7 @@
 <p>To display hidden files.If any folder start with dot is hidden folder.</p>
 
 <li><code>ls .git</code></li>
-<p>List the content of .git folder. The .git folder contains all the information that is necessary for your project in version control and all the information bout commit, remote repository address, etc</p>
+<p>List the content of .git folder. The .git folder contains all the information that is necessary for your project in version control and all the information about commit, remote repository address, etc. In general it tracks all the changes in our repository</p>
 
 <li><code>touch filename.txt</code></li>
 <p>Creates empty file.</p>
@@ -35,16 +35,16 @@
 <p>Display the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any information regarding the committed project history.</p>
 
 <li><code>git add filename.txt</code></li>
-<p>To add particular file in .git.</p>
+<p>To add particular file to a staging area </p>
 
 <li><code>git add .</code></li>
-<p>To add a all changed file int .git.</p>
+<p>To add all files to a staging area</p>
 
 <li><code>git commit -m "Message"</code></li>
-<p>Git commit messages are necessary to look back and see the changes made during a particular commit.</p>
+<p>Git commit messages are necessary to look back and see the changes made during a particular commit.Commits messages are the short description of the changes we make.</p>
 
 <li><code>git log</code></li>
 <p>The git log command display committed snapshots. It lets you list the project history, filter it, and search for specific changes. While 
   <br>
-  <code>git status</code> lets you inspect the working directory and the staging area, git log only operates on the committed history.</p>
+</p>
 

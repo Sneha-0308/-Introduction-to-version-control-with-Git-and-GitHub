@@ -4,4 +4,20 @@
 <h1 align="center">What is version control system 🤔</h1>
 
 
-Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
+<p>Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time.
+
+Version Control is a program or set of program that records changes that changes to a file or a set  of files over time so that we can recall specific versions later.
+
+Another name for a VCS is a software configuration management (SCM) system.
+
+- Allows to revert the files to previous state
+
+- To revert the entire project
+
+- See who modified and when
+
+- Who introduced the issue and when
+
+
+
+</p>
